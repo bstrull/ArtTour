@@ -1,0 +1,1326 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {698, 604}}";
+			sepNavSelRange = "{352, 0}";
+			sepNavVisRange = "{0, 856}";
+			sepNavWindowFrame = "{{61, 96}, {1040, 635}}";
+		};
+	};
+	1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1963}}";
+			sepNavSelRange = "{3778, 31}";
+			sepNavVisRange = "{3666, 549}";
+			sepNavWindowFrame = "{{225, 7}, {1040, 635}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Lake Oswego Art */ = {
+		activeExec = 0;
+		executables = (
+			B857361213236226002AA3CB /* Lake Oswego Art */,
+		);
+	};
+	28C286DF0D94DF7D0034E888 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 604}}";
+			sepNavSelRange = "{687, 0}";
+			sepNavVisRange = "{0, 694}";
+		};
+	};
+	28C286E00D94DF7D0034E888 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1300, 4563}}";
+			sepNavSelRange = "{4470, 0}";
+			sepNavVisRange = "{8927, 1039}";
+			sepNavWindowFrame = "{{84, 75}, {1040, 635}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = B857361213236226002AA3CB /* Lake Oswego Art */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Lake Oswego Art */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Lake Oswego Art */,
+		);
+		breakpoints = (
+			B87D84E61325E61F003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:31 */,
+			B87D84E81325E625003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:108 */,
+			B87D84EA1325E627003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:138 */,
+			B87D857C1325F0E9003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:93 */,
+			B87D85901325F312003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:117 */,
+			B8A30B3F13273EBA00444B2E /* RootViewController.m:38 */,
+			B8A30B5213273F2400444B2E /* RootViewController.m:133 */,
+			B8A30B5B13273F9B00444B2E /* RootViewController.m:150 */,
+			B8A30B5D13273FAF00444B2E /* RootViewController.m:146 */,
+			B8858BE9132814790060BCA0 /* RootViewController.m:81 */,
+			B8858BEB1328147D0060BCA0 /* RootViewController.m:81 */,
+			B8858C05132814AB0060BCA0 /* RootViewController.m:67 */,
+			B8F9CA5813283D0600583159 /* ArtDetailView.m:35 */,
+			B8F9CA5A13283D0F00583159 /* ArtDetailView.m:72 */,
+			B8F9CA6513283D9400583159 /* TourListView.m:29 */,
+			B8F9CA6713283D9E00583159 /* TourListView.m:361 */,
+			B8F9CA6913283DAA00583159 /* TourListView.m:355 */,
+			B8F9CA6B13283DB400583159 /* ArtDetailView.m:305 */,
+			B8F9CA6D13283DB700583159 /* ArtDetailView.m:291 */,
+			B8F9CA7613283E3F00583159 /* RootViewController.m:310 */,
+			B8F9CA7813283E4100583159 /* RootViewController.m:319 */,
+			B84F505A13284F1B00E34AEE /* ArtDetailView.m:301 */,
+			B88EE12A132B2A580095F8CC /* TourListView.m:77 */,
+			B88EE14B132B2C6C0095F8CC /* TourListView.m:75 */,
+			B88EE14E132B2CA50095F8CC /* TourListView.m:288 */,
+			B8C2FE70132B45FA00AF4239 /* TourListData.m:106 */,
+			B88BD6E3132D9C6400FADFBC /* ArtLocation.m:123 */,
+			B88BD6E5132D9C6A00FADFBC /* ArtLocation.m:116 */,
+		);
+		codeSenseManager = B857363B13236245002AA3CB /* Code sense */;
+		executables = (
+			B857361213236226002AA3CB /* Lake Oswego Art */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					609,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					485,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322358529;
+			PBXWorkspaceStateSaveDate = 322358529;
+		};
+		perUserProjectItems = {
+			B801C4B01328709000974101 /* PBXTextBookmark */ = B801C4B01328709000974101 /* PBXTextBookmark */;
+			B801C4B21328709000974101 /* PBXTextBookmark */ = B801C4B21328709000974101 /* PBXTextBookmark */;
+			B801C4BF1328715D00974101 /* PBXTextBookmark */ = B801C4BF1328715D00974101 /* PBXTextBookmark */;
+			B81013A1132882F100C21DC1 /* PBXTextBookmark */ = B81013A1132882F100C21DC1 /* PBXTextBookmark */;
+			B81013C01328855800C21DC1 /* PBXBookmark */ = B81013C01328855800C21DC1 /* PBXBookmark */;
+			B81013CA1328872C00C21DC1 /* PBXTextBookmark */ = B81013CA1328872C00C21DC1 /* PBXTextBookmark */;
+			B82B08281336CD2100BA44D7 /* PBXTextBookmark */ = B82B08281336CD2100BA44D7 /* PBXTextBookmark */;
+			B82B08401336D09500BA44D7 /* PBXTextBookmark */ = B82B08401336D09500BA44D7 /* PBXTextBookmark */;
+			B82B084B1336D79600BA44D7 /* PBXTextBookmark */ = B82B084B1336D79600BA44D7 /* PBXTextBookmark */;
+			B82B084D1336D98000BA44D7 /* PBXTextBookmark */ = B82B084D1336D98000BA44D7 /* PBXTextBookmark */;
+			B84F502F13284CCA00E34AEE /* PBXTextBookmark */ = B84F502F13284CCA00E34AEE /* PBXTextBookmark */;
+			B84F503013284CCA00E34AEE /* PBXTextBookmark */ = B84F503013284CCA00E34AEE /* PBXTextBookmark */;
+			B84F509E132859EE00E34AEE /* PBXTextBookmark */ = B84F509E132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50A0132859EE00E34AEE /* PBXTextBookmark */ = B84F50A0132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50A2132859EE00E34AEE /* PBXTextBookmark */ = B84F50A2132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50A4132859EE00E34AEE /* PBXTextBookmark */ = B84F50A4132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50A5132859EE00E34AEE /* PBXTextBookmark */ = B84F50A5132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50A6132859EE00E34AEE /* PBXTextBookmark */ = B84F50A6132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50AC132859EE00E34AEE /* PBXTextBookmark */ = B84F50AC132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50AD132859EE00E34AEE /* PBXTextBookmark */ = B84F50AD132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50AE132859EE00E34AEE /* PBXTextBookmark */ = B84F50AE132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50B0132859EE00E34AEE /* PBXTextBookmark */ = B84F50B0132859EE00E34AEE /* PBXTextBookmark */;
+			B84F50B1132859EE00E34AEE /* PBXTextBookmark */ = B84F50B1132859EE00E34AEE /* PBXTextBookmark */;
+			B881433E1329E28300176AE9 /* PBXTextBookmark */ = B881433E1329E28300176AE9 /* PBXTextBookmark */;
+			B88BD6B6132D995F00FADFBC /* PBXTextBookmark */ = B88BD6B6132D995F00FADFBC /* PBXTextBookmark */;
+			B88BD6FA132D9DFE00FADFBC /* PBXTextBookmark */ = B88BD6FA132D9DFE00FADFBC /* PBXTextBookmark */;
+			B88EE11D132B295B0095F8CC /* PBXBookmark */ = B88EE11D132B295B0095F8CC /* PBXBookmark */;
+			B88EE11E132B295B0095F8CC /* PBXBookmark */ = B88EE11E132B295B0095F8CC /* PBXBookmark */;
+			B88EE130132B2A600095F8CC /* PlistBookmark */ = B88EE130132B2A600095F8CC /* PlistBookmark */;
+			B88EE150132B2CA80095F8CC /* PBXTextBookmark */ = B88EE150132B2CA80095F8CC /* PBXTextBookmark */;
+			B88EE157132B2E690095F8CC /* PBXTextBookmark */ = B88EE157132B2E690095F8CC /* PBXTextBookmark */;
+			B88EE158132B2E690095F8CC /* PBXTextBookmark */ = B88EE158132B2E690095F8CC /* PBXTextBookmark */;
+			B88EE159132B2E690095F8CC /* PBXTextBookmark */ = B88EE159132B2E690095F8CC /* PBXTextBookmark */;
+			B88EE15A132B2E690095F8CC /* PBXTextBookmark */ = B88EE15A132B2E690095F8CC /* PBXTextBookmark */;
+			B88EE166132B32710095F8CC /* PBXTextBookmark */ = B88EE166132B32710095F8CC /* PBXTextBookmark */;
+			B88EE177132B44410095F8CC /* PBXTextBookmark */ = B88EE177132B44410095F8CC /* PBXTextBookmark */;
+			B89FA6FB13306B810064BED0 /* PBXTextBookmark */ = B89FA6FB13306B810064BED0 /* PBXTextBookmark */;
+			B8C2FE88132B47B300AF4239 /* PBXTextBookmark */ = B8C2FE88132B47B300AF4239 /* PBXTextBookmark */;
+		};
+		sourceControlManager = B857363A13236245002AA3CB /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107310486CEB800E47090 /* Lake_Oswego_Art-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 138}, {1040, 635}}";
+		};
+	};
+	B801C4B01328709000974101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B801C4B11328709000974101 /* CALayer.h */;
+		name = "CALayer.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1980;
+		vrLoc = 6431;
+	};
+	B801C4B11328709000974101 /* CALayer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CALayer.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h;
+		sourceTree = "<absolute>";
+	};
+	B801C4B21328709000974101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B801C4B31328709000974101 /* QuartzCore.h */;
+		name = "QuartzCore.h: 9";
+		rLen = 37;
+		rLoc = 131;
+		rType = 0;
+		vrLen = 196;
+		vrLoc = 0;
+	};
+	B801C4B31328709000974101 /* QuartzCore.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = QuartzCore.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h;
+		sourceTree = "<absolute>";
+	};
+	B801C4BF1328715D00974101 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		name = "Lake_Oswego_ArtAppDelegate.m: 36";
+		rLen = 31;
+		rLoc = 1002;
+		rType = 0;
+		vrLen = 1897;
+		vrLoc = 232;
+	};
+	B81013A1132882F100C21DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8709416131F505500AED2B6 /* AboutView.m */;
+		name = "AboutView.m: 48";
+		rLen = 31;
+		rLoc = 1269;
+		rType = 0;
+		vrLen = 1569;
+		vrLoc = 219;
+	};
+	B81013C01328855800C21DC1 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B8A30BB813274BFA00444B2E /* icon_search.png */;
+	};
+	B81013C21328855800C21DC1 /* Lake Oswego Art.xcent */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.xml;
+		name = "Lake Oswego Art.xcent";
+		path = "/Users/skifreak/Documents/projects/Lake Oswego Art/build/Lake Oswego Art.build/Distribution-iphoneos/Lake Oswego Art.build/Lake Oswego Art.xcent";
+		sourceTree = "<absolute>";
+	};
+	B81013CA1328872C00C21DC1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B81013C21328855800C21DC1 /* Lake Oswego Art.xcent */;
+		name = "Lake Oswego Art.xcent: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 451;
+		vrLoc = 0;
+	};
+	B82B08281336CD2100BA44D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		name = "TourListView.m: 132";
+		rLen = 0;
+		rLoc = 3334;
+		rType = 0;
+		vrLen = 1239;
+		vrLoc = 8825;
+	};
+	B82B082C1336CD2100BA44D7 /* voted.php */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.script.php;
+		name = voted.php;
+		path = /Users/skifreak/Sites/lofa.org/vote/voted.php;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 587}}";
+			sepNavSelRange = "{455, 0}";
+			sepNavVisRange = "{0, 500}";
+		};
+	};
+	B82B08401336D09500BA44D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B82B08411336D09500BA44D7 /* vote.html */;
+		name = "vote.html: 15";
+		rLen = 0;
+		rLoc = 427;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
+	};
+	B82B08411336D09500BA44D7 /* vote.html */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text.html;
+		name = vote.html;
+		path = /Users/skifreak/Sites/lofa.org/vote/vote.html;
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {787, 587}}";
+			sepNavSelRange = "{232, 178}";
+			sepNavVisRange = "{0, 427}";
+		};
+	};
+	B82B084B1336D79600BA44D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B82B082C1336CD2100BA44D7 /* voted.php */;
+		name = "voted.php: 16";
+		rLen = 0;
+		rLoc = 455;
+		rType = 0;
+		vrLen = 500;
+		vrLoc = 0;
+	};
+	B82B084D1336D98000BA44D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B82B084E1336D98000BA44D7 /* vote.html */;
+		name = "vote.html: 8";
+		rLen = 178;
+		rLoc = 232;
+		rType = 0;
+		vrLen = 427;
+		vrLoc = 0;
+	};
+	B82B084E1336D98000BA44D7 /* vote.html */ = {
+		isa = PBXFileReference;
+		name = vote.html;
+		path = /Users/skifreak/Sites/lofa.org/vote/vote.html;
+		sourceTree = "<absolute>";
+	};
+	B84F502F13284CCA00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87D853B1325EB14003CF8E9 /* ParseOperationDelegate.h */;
+		name = "ParseOperationDelegate.h: 16";
+		rLen = 0;
+		rLoc = 299;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 0;
+	};
+	B84F503013284CCA00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8709415131F505500AED2B6 /* AboutView.h */;
+		name = "AboutView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 324;
+		vrLoc = 0;
+	};
+	B84F505A13284F1B00E34AEE /* ArtDetailView.m:301 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 301;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.7306091;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B84F509E132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286DF0D94DF7D0034E888 /* RootViewController.h */;
+		name = "RootViewController.h: 30";
+		rLen = 0;
+		rLoc = 687;
+		rType = 0;
+		vrLen = 694;
+		vrLoc = 0;
+	};
+	B84F50A0132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.h */;
+		name = "Lake_Oswego_ArtAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 352;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	B84F50A2132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8A08297130B97CD0021524F /* Artwork.h */;
+		name = "Artwork.h: 50";
+		rLen = 0;
+		rLoc = 1407;
+		rType = 0;
+		vrLen = 1551;
+		vrLoc = 143;
+	};
+	B84F50A4132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D5C6BC130CDC9300D78352 /* ArtList.h */;
+		name = "ArtList.h: 35";
+		rLen = 0;
+		rLoc = 821;
+		rType = 0;
+		vrLen = 917;
+		vrLoc = 0;
+	};
+	B84F50A5132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8D5C6BD130CDC9300D78352 /* ArtList.m */;
+		name = "ArtList.m: 192";
+		rLen = 0;
+		rLoc = 5897;
+		rType = 0;
+		vrLen = 1283;
+		vrLoc = 4704;
+	};
+	B84F50A6132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8828C0113136C7000AE83EC /* ArtDetailView.h */;
+		name = "ArtDetailView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 939;
+		vrLoc = 0;
+	};
+	B84F50AC132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C8485131E093B00AC5025 /* TourData.h */;
+		name = "TourData.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 457;
+		vrLoc = 0;
+	};
+	B84F50AD132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C8486131E093B00AC5025 /* TourData.m */;
+		name = "TourData.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 558;
+		vrLoc = 0;
+	};
+	B84F50AE132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C8488131E094B00AC5025 /* TourListData.h */;
+		name = "TourListData.h: 38";
+		rLen = 0;
+		rLoc = 894;
+		rType = 0;
+		vrLen = 902;
+		vrLoc = 0;
+	};
+	B84F50B0132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87CA78313162FAD008B7BD4 /* artAnnotation.h */;
+		name = "artAnnotation.h: 26";
+		rLen = 60;
+		rLoc = 486;
+		rType = 0;
+		vrLen = 552;
+		vrLoc = 0;
+	};
+	B84F50B1132859EE00E34AEE /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87CA78413162FAD008B7BD4 /* artAnnotation.m */;
+		name = "artAnnotation.m: 55";
+		rLen = 0;
+		rLoc = 1180;
+		rType = 0;
+		vrLen = 1228;
+		vrLoc = 592;
+	};
+	B857361213236226002AA3CB /* Lake Oswego Art */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Lake Oswego Art";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	B857363A13236245002AA3CB /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	B857363B13236245002AA3CB /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	B8709413131F4C5700AED2B6 /* about.htm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1223, 1001}}";
+			sepNavSelRange = "{3704, 0}";
+			sepNavVisRange = "{1453, 2344}";
+			sepNavWindowFrame = "{{15, 138}, {1040, 635}}";
+		};
+	};
+	B8709415131F505500AED2B6 /* AboutView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 625}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 324}";
+		};
+	};
+	B8709416131F505500AED2B6 /* AboutView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1378}}";
+			sepNavSelRange = "{1269, 31}";
+			sepNavVisRange = "{219, 1569}";
+			sepNavWindowFrame = "{{15, 138}, {1040, 635}}";
+		};
+	};
+	B87C83FF131DF9A600AC5025 /* ImageDownloader.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 603}}";
+			sepNavSelRange = "{267, 38}";
+			sepNavVisRange = "{0, 951}";
+		};
+	};
+	B87C8400131DF9A600AC5025 /* ImageDownloader.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 1456}}";
+			sepNavSelRange = "{2509, 0}";
+			sepNavVisRange = "{1538, 1307}";
+		};
+	};
+	B87C847F131E06E500AC5025 /* TourData.xml */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2896, 603}}";
+			sepNavSelRange = "{2002, 0}";
+			sepNavVisRange = "{0, 2411}";
+		};
+	};
+	B87C8485131E093B00AC5025 /* TourData.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 579}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 457}";
+		};
+	};
+	B87C8486131E093B00AC5025 /* TourData.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 579}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 558}";
+		};
+	};
+	B87C8488131E094B00AC5025 /* TourListData.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 579}}";
+			sepNavSelRange = "{894, 0}";
+			sepNavVisRange = "{0, 902}";
+			sepNavWindowFrame = "{{240, 109}, {1040, 635}}";
+		};
+	};
+	B87C8489131E094B00AC5025 /* TourListData.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1321, 1807}}";
+			sepNavSelRange = "{3388, 0}";
+			sepNavVisRange = "{3043, 666}";
+			sepNavWindowFrame = "{{130, 33}, {1040, 635}}";
+		};
+	};
+	B87CA78313162FAD008B7BD4 /* artAnnotation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 579}}";
+			sepNavSelRange = "{486, 60}";
+			sepNavVisRange = "{0, 552}";
+		};
+	};
+	B87CA78413162FAD008B7BD4 /* artAnnotation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 1040}}";
+			sepNavSelRange = "{1180, 0}";
+			sepNavVisRange = "{592, 1228}";
+		};
+	};
+	B87D84E61325E61F003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:31 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		functionName = "-application:didFinishLaunchingWithOptions:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 31;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729802;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B87D84E81325E625003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:108 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		functionName = "-handleArtLoaded";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 108;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729836;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B87D84EA1325E627003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:138 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		functionName = "-didFinishParsing";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 138;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729852;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B87D853B1325EB14003CF8E9 /* ParseOperationDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {907, 625}}";
+			sepNavSelRange = "{299, 0}";
+			sepNavVisRange = "{0, 299}";
+		};
+	};
+	B87D857C1325F0E9003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:93 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		functionName = "-applicationDidReceiveMemoryWarning:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 93;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729866;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B87D85901325F312003CF8E9 /* Lake_Oswego_ArtAppDelegate.m:117 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 1D3623250D0F684500981E51 /* Lake_Oswego_ArtAppDelegate.m */;
+		functionName = "-handleArtLoaded";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 117;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729881;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B87F780C131B13610084348D /* ArtLocation.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {703, 429}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 649}";
+		};
+	};
+	B87F780D131B13610084348D /* ArtLocation.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1041, 1794}}";
+			sepNavSelRange = "{3468, 0}";
+			sepNavVisRange = "{2355, 1513}";
+			sepNavWindowFrame = "{{15, 138}, {1040, 635}}";
+		};
+	};
+	B881433E1329E28300176AE9 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87F780C131B13610084348D /* ArtLocation.h */;
+		name = "ArtLocation.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	B8828C0113136C7000AE83EC /* ArtDetailView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {957, 579}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 939}";
+		};
+	};
+	B8828C0213136C7000AE83EC /* ArtDetailView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 4303}}";
+			sepNavSelRange = "{8084, 0}";
+			sepNavVisRange = "{7891, 309}";
+		};
+	};
+	B8858BE9132814790060BCA0 /* RootViewController.m:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-viewDidDisappear:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		modificationTime = 321756260.730217;
+		originalNumberOfMultipleMatches = 0;
+		state = 2;
+	};
+	B8858BEB1328147D0060BCA0 /* RootViewController.m:81 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-viewDidDisappear:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 81;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730285;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8858C05132814AB0060BCA0 /* RootViewController.m:67 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-viewDidAppear:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 67;
+		location = "Lake Oswego Art";
+		modificationTime = 321756272.948116;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B88B881F12EFDCCB002ECD8F /* TourListView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 580}}";
+			sepNavSelRange = "{1000, 0}";
+			sepNavVisRange = "{0, 1007}";
+		};
+	};
+	B88B882012EFDCCB002ECD8F /* TourListView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {936, 4914}}";
+			sepNavSelRange = "{3334, 0}";
+			sepNavVisRange = "{8825, 1239}";
+			sepNavWindowFrame = "{{128, 4}, {1040, 635}}";
+		};
+	};
+	B88BD6B6132D995F00FADFBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C847F131E06E500AC5025 /* TourData.xml */;
+		name = "TourData.xml: 33";
+		rLen = 0;
+		rLoc = 2002;
+		rType = 0;
+		vrLen = 2411;
+		vrLoc = 0;
+	};
+	B88BD6E3132D9C6400FADFBC /* ArtLocation.m:123 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B87F780D131B13610084348D /* ArtLocation.m */;
+		functionName = "-locationManager:didFailWithError:";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 123;
+		location = "Lake Oswego Art";
+		modificationTime = 321756281.093285;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B88BD6E5132D9C6A00FADFBC /* ArtLocation.m:116 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B87F780D131B13610084348D /* ArtLocation.m */;
+		functionName = "-locationManager:didFailWithError:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 116;
+		location = "Lake Oswego Art";
+		modificationTime = 321756266.823835;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B88BD6FA132D9DFE00FADFBC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87F780D131B13610084348D /* ArtLocation.m */;
+		name = "ArtLocation.m: 118";
+		rLen = 0;
+		rLoc = 3468;
+		rType = 0;
+		vrLen = 1513;
+		vrLoc = 2355;
+	};
+	B88EE11D132B295B0095F8CC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B89352021314DF9700FC62CE /* maps.png */;
+	};
+	B88EE11E132B295B0095F8CC /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = B88EE112132B28C00095F8CC /* icon.png */;
+	};
+	B88EE12A132B2A580095F8CC /* TourListView.m:77 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-viewDidAppear:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 77;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730659;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B88EE130132B2A600095F8CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Lake_Oswego_Art-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFiles,
+			0,
+		);
+		name = "/Users/skifreak/Documents/projects/Lake Oswego Art/Lake_Oswego_Art-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	B88EE14B132B2C6C0095F8CC /* TourListView.m:75 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-viewDidAppear:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 75;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.73068;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B88EE14E132B2CA50095F8CC /* TourListView.m:288 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-loadImagesForOnscreenRows";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 288;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730695;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B88EE150132B2CA80095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B88B881F12EFDCCB002ECD8F /* TourListView.h */;
+		name = "TourListView.h: 34";
+		rLen = 0;
+		rLoc = 1000;
+		rType = 0;
+		vrLen = 1007;
+		vrLoc = 0;
+	};
+	B88EE157132B2E690095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8A08298130B97CD0021524F /* Artwork.m */;
+		name = "Artwork.m: 18";
+		rLen = 0;
+		rLoc = 389;
+		rType = 0;
+		vrLen = 1348;
+		vrLoc = 0;
+	};
+	B88EE158132B2E690095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		name = "ArtDetailView.m: 301";
+		rLen = 0;
+		rLoc = 8084;
+		rType = 0;
+		vrLen = 1404;
+		vrLoc = 5060;
+	};
+	B88EE159132B2E690095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C83FF131DF9A600AC5025 /* ImageDownloader.h */;
+		name = "ImageDownloader.h: 17";
+		rLen = 38;
+		rLoc = 267;
+		rType = 0;
+		vrLen = 951;
+		vrLoc = 0;
+	};
+	B88EE15A132B2E690095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C8400131DF9A600AC5025 /* ImageDownloader.m */;
+		name = "ImageDownloader.m: 95";
+		rLen = 0;
+		rLoc = 2509;
+		rType = 0;
+		vrLen = 1307;
+		vrLoc = 1538;
+	};
+	B88EE166132B32710095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B893518D1314D59C00FC62CE /* ArtMapView.h */;
+		name = "ArtMapView.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 649;
+		vrLoc = 0;
+	};
+	B88EE177132B44410095F8CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B893518E1314D59C00FC62CE /* ArtMapView.m */;
+		name = "ArtMapView.m: 12";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 1179;
+		vrLoc = 2295;
+	};
+	B893518D1314D59C00FC62CE /* ArtMapView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 578}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 649}";
+		};
+	};
+	B893518E1314D59C00FC62CE /* ArtMapView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 3913}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{2295, 1179}";
+		};
+	};
+	B89FA6FB13306B810064BED0 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		name = "RootViewController.m: 157";
+		rLen = 0;
+		rLoc = 4470;
+		rType = 0;
+		vrLen = 1039;
+		vrLoc = 8927;
+	};
+	B8A08297130B97CD0021524F /* Artwork.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 936}}";
+			sepNavSelRange = "{1407, 0}";
+			sepNavVisRange = "{143, 1551}";
+		};
+	};
+	B8A08298130B97CD0021524F /* Artwork.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {869, 1196}}";
+			sepNavSelRange = "{389, 0}";
+			sepNavVisRange = "{0, 1348}";
+		};
+	};
+	B8A30B3F13273EBA00444B2E /* RootViewController.m:38 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 38;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.729894;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B8A30B5213273F2400444B2E /* RootViewController.m:133 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 133;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730063;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8A30B5B13273F9B00444B2E /* RootViewController.m:150 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 150;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730118;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8A30B5D13273FAF00444B2E /* RootViewController.m:146 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-tableView:cellForRowAtIndexPath:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 146;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730166;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8C2FE70132B45FA00AF4239 /* TourListData.m:106 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B87C8489131E094B00AC5025 /* TourListData.m */;
+		functionName = "-parser:didEndElement:namespaceURI:qualifiedName:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 106;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730709;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8C2FE88132B47B300AF4239 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = B87C8489131E094B00AC5025 /* TourListData.m */;
+		name = "TourListData.m: 72";
+		rLen = 0;
+		rLoc = 2036;
+		rType = 0;
+		vrLen = 1603;
+		vrLoc = 2679;
+	};
+	B8D5C6BC130CDC9300D78352 /* ArtList.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {618, 604}}";
+			sepNavSelRange = "{821, 0}";
+			sepNavVisRange = "{0, 917}";
+		};
+	};
+	B8D5C6BD130CDC9300D78352 /* ArtList.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1321, 2457}}";
+			sepNavSelRange = "{2344, 0}";
+			sepNavVisRange = "{2075, 680}";
+			sepNavWindowFrame = "{{15, 138}, {1040, 635}}";
+		};
+	};
+	B8F9CA5813283D0600583159 /* ArtDetailView.m:35 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 35;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730406;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8F9CA5A13283D0F00583159 /* ArtDetailView.m:72 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 72;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730423;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B8F9CA6513283D9400583159 /* TourListView.m:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-viewDidLoad";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730438;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8F9CA6713283D9E00583159 /* TourListView.m:361 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 361;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730451;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8F9CA6913283DAA00583159 /* TourListView.m:355 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B88B882012EFDCCB002ECD8F /* TourListView.m */;
+		functionName = "-viewDidUnload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 355;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730464;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8F9CA6B13283DB400583159 /* ArtDetailView.m:305 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 305;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730487;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	B8F9CA6D13283DB700583159 /* ArtDetailView.m:291 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = B8828C0213136C7000AE83EC /* ArtDetailView.m */;
+		functionName = "-viewDidUnload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 291;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.7305;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B8F9CA7613283E3F00583159 /* RootViewController.m:310 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-viewDidUnload";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 310;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730515;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	B8F9CA7813283E4100583159 /* RootViewController.m:319 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28C286E00D94DF7D0034E888 /* RootViewController.m */;
+		functionName = "-dealloc";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 319;
+		location = "Lake Oswego Art";
+		modificationTime = 321756260.730562;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+}

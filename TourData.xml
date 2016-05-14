@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot>
+	<tour>
+		<name>New Sculptures</name>
+		<ids>323,313,319,286,223,318,316,296,287,321,216,322,326,327,288</ids>
+		<desc>Tour our new artwork that was installed July 2010 in our rotating exhibit. The sculptures will be in Lake Oswego until June 2012, and all are for sale. For more information about the sculptures, the program, or the Arts Council of Lake Oswego please visit our website.
+		</desc>
+	</tour>
+	<tour>
+		<name>Highlights of the Gallery Without Walls</name>
+		<ids>214,4,193,264,60</ids>
+		<desc>With thirty pieces of rotating art in the Gallery Without Walls along with thirty two other sculptures it is difficult, if not impossible, to choose highlights of the collection.  However, there are some that children and adults alike gravitate toward in our downtown core.  They are representational and abstract, thought provoking and straight forward, large and small.  These are some favorites.
+		</desc>
+	</tour>
+	<tour>
+		<name>Abstract</name>
+		<ids>141,216,327,223,313,321,193</ids>
+		<desc> Abstract art is often the most difficult art form for people to view because it does not represent recognizable reality.  So prepare to tease your eyes with art that uses shapes, colors, forms and textures as its subject matter.
+		</desc>
+	</tour>
+	<tour>
+		<name>Animals</name>
+		<ids>208,264,287,322,51,296,286</ids>
+		<desc>People love animals and our animals love people.  Whether realistic or abstract, you will recognize all of them, so come meet our majestic elephant, soaring osprey, elegant Egyptian cat, whimsical hare, sinuous cougar, giant seahorse, and a dog with his boy.
+		</desc>
+	</tour>
+	<tour>
+		<name>People at the Village</name>
+		<ids>208,60,193,4</ids>
+		<desc>Do you only have a few minutes while waiting for a dinner reservation?  Come and meet some of our "People at the Village".  Each of them has their own story to tell you.
+		</desc>
+	</tour>
+    <tour><name>People on A Avenue</name><ids>47,339,3,59,200,326</ids><desc>Sculptors depict people realistically, abstractly and sometimes somewhere in between.  Study these men, women and children as you stroll along A Avenue.</desc></tour>
+<tour><name>Steel, Glass &amp; Bronze</name><ids>288,323,318,316,319,216,55,231,213,196</ids><desc>The materials sculptors use in their work are as much an expression of the artist as the subjects they choose.</desc></tour>
+</dataroot>
