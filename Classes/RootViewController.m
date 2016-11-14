@@ -47,7 +47,7 @@
 					 @"Find Closest Art", @"Show All Art", @"Arts Council of Lake Oswego", nil]; 
 	
 	locations = [[ArtLocation alloc] init];
-	[locations startLooking];
+	[locations prepareToLook];
 	
     [super viewDidLoad];
 
@@ -64,7 +64,7 @@
 
 - (void)viewDidAppear:(BOOL)animated {
 
-    [locations restartLooking];
+    [locations resumeLooking];
 	[super viewDidAppear:animated];
     [self defaultBackButtonTitle];
 
@@ -256,7 +256,7 @@
 				if (closest == nil)
 				{
 					UIAlertView * errorAlert = 
-					[[UIAlertView alloc] initWithTitle:@"Location not available" message:@"Location services not enabled" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]; 
+					[[UIAlertView alloc] initWithTitle:@"" message:@"Location not available" delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil]; 
 					[errorAlert show]; 
 				}
 				else {

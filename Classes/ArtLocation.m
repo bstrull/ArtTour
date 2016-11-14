@@ -16,53 +16,79 @@ CLLocation* currentLoc = nil;
 
 @synthesize locManager, myLocation;
 
-
--(void) startLooking
+-(void) prepareToLook
 {
-	self.myLocation = nil;
-	currentLoc = nil;
-	locManager = [[CLLocationManager alloc] init];
-	locManager.delegate = self;
-	locManager.desiredAccuracy = kCLLocationAccuracyBest;
-	locManager.distanceFilter = 20;
-	[locManager startUpdatingLocation];
-	
-	[self performSelector:@selector(stopLooking) withObject:nil  afterDelay:60.0];
-}
+
+    if ([CLLocationManager locationServicesEnabled])
+    {
+      locManager = [[CLLocationManager alloc] init];
+      locManager.delegate = self;
+      locManager.desiredAccuracy = kCLLocationAccuracyBest;
+      locManager.distanceFilter = 20;
+      locManager.pausesLocationUpdatesAutomatically = YES;
+      locManager.activityType = CLActivityTypeOther;
+      
+      [self requestWhenInUseAuthorization];
+      [locManager startUpdatingLocation];
+    }
+    else{
+
+      UIAlertView *servicesDisabledAlert = [[UIAlertView alloc] initWithTitle:@"Location Services Disabled" message:@"You currently have location services for this device disabled.  To enable, Settings->Location->location services->on" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:@"Continue",nil];
+      [servicesDisabledAlert show];
+      [servicesDisabledAlert setDelegate:self];
+    }
+  }
+
+  - (void)requestWhenInUseAuthorization
+  {
+    CLAuthorizationStatus status = [CLLocationManager authorizationStatus];
+
+    // If the status is denied display an alert
+    if (status == kCLAuthorizationStatusDenied) {
+      NSString *title;
+      title =  @"Location services are off";
+      NSString *message = @"To locate art, enable Location Services for this app.";
+
+      UIAlertView *alertViews = [[UIAlertView alloc] initWithTitle:title
+                                                           message:message
+                                                          delegate:self
+                                                 cancelButtonTitle:@"Cancel"
+                                                 otherButtonTitles:@"Settings", nil];
+      [alertViews show];
+    }
+    // The user has not enabled any location services. Request background authorization.
+    else if (status == kCLAuthorizationStatusNotDetermined) {
+        if ([locManager respondsToSelector:@selector(requestWhenInUseAuthorization)]) {
+          [locManager requestWhenInUseAuthorization];
+        }
+    }
+  }
 
 -(void) resumeLooking
 {
-    
-    // authorizationStatus - check version support?  crash on 4.1?
-	if (locManager && [CLLocationManager locationServicesEnabled])
-    {    
-        if (![CLLocationManager respondsToSelector:@selector(authorizationStatus)] ||
+  	if (locManager && [CLLocationManager locationServicesEnabled])
+    {
+      if (![CLLocationManager respondsToSelector:@selector(authorizationStatus)] ||
              [CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized) {
 		[locManager startUpdatingLocation];
 		[self performSelector:@selector(stopLooking) withObject:nil  afterDelay:60.0];
-        }
+      }
     }
 }	
 
--(void) restartLooking
-{
-    self.myLocation = nil;
-    [self resumeLooking];
-}
-
 -(void) stopLooking
 {
-	if (locManager)
+    if (locManager) {
 		[locManager stopUpdatingLocation];
-}	
-
-
+    }
+}
 
 
 -(Artwork*) findClosest:(ArtList*) works
 {
-	if (myLocation == nil)
+    if (myLocation == nil) {
 		return nil;
+    }
 	
 	CLLocationDistance best = 100000000.0;
 	
@@ -81,7 +107,6 @@ CLLocation* currentLoc = nil;
 			close = art;
 		}
 	}
-	
 	return close;
 }
 	
@@ -132,6 +157,23 @@ CLLocation* currentLoc = nil;
 		locManager.delegate = nil;
 		locManager = nil;
 	}
+}
+
+-(void)locationManager:(CLLocationManager *)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status
+{
+  switch (status) {
+    case kCLAuthorizationStatusNotDetermined:
+    case kCLAuthorizationStatusRestricted:
+    case kCLAuthorizationStatusDenied:
+    {
+      // do some error handling
+    }
+      break;
+    default:{
+      [self resumeLooking];
+    }
+      break;
+  }
 }
 
 - (void)dealloc

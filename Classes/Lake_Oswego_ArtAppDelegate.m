@@ -200,7 +200,7 @@
         
         [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"neverRate"];
         
-        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://itunes.apple.com/us/app/l-o-art-tour/id425310949?mt=8"]];
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"https://itunes.apple.com/us/app/l-o-art-tour/id425310949?mt=8"]];
         
     }
     

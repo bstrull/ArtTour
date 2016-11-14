@@ -73,9 +73,10 @@
 		B89351901314D59C00FC62CE /* ArtMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = B893518E1314D59C00FC62CE /* ArtMapView.m */; };
 		B89351911314D59C00FC62CE /* ArtMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B893518F1314D59C00FC62CE /* ArtMapView.xib */; };
 		B89352031314DF9700FC62CE /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = B89352021314DF9700FC62CE /* maps.png */; };
+		B89677281DD975DE00D58645 /* GWWData.xml in Resources */ = {isa = PBXBuildFile; fileRef = B89677271DD975DE00D58645 /* GWWData.xml */; };
+		B896772A1DD975E900D58645 /* TourData.xml in Resources */ = {isa = PBXBuildFile; fileRef = B89677291DD975E900D58645 /* TourData.xml */; };
 		B8A08299130B97CD0021524F /* Artwork.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A08298130B97CD0021524F /* Artwork.m */; };
 		B8A30BB913274BFA00444B2E /* icon_search.png in Resources */ = {isa = PBXBuildFile; fileRef = B8A30BB813274BFA00444B2E /* icon_search.png */; };
-		B8AF2F7019382BAC0024309E /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8AF2F6F19382BAC0024309E /* MainWindow-iPad.xib */; };
 		B8D5C6BE130CDC9300D78352 /* ArtList.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D5C6BD130CDC9300D78352 /* ArtList.m */; };
 		B8DE87C9194E8FF900C35DE0 /* FixedSizedImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B8DE87C8194E8FF900C35DE0 /* FixedSizedImageCell.m */; };
 		B8EAA921131B437600B250ED /* walk.png in Resources */ = {isa = PBXBuildFile; fileRef = B8EAA920131B437600B250ED /* walk.png */; };
@@ -180,6 +181,8 @@
 		B893518E1314D59C00FC62CE /* ArtMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArtMapView.m; sourceTree = "<group>"; };
 		B893518F1314D59C00FC62CE /* ArtMapView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ArtMapView.xib; path = Classes/ArtMapView.xib; sourceTree = "<group>"; };
 		B89352021314DF9700FC62CE /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
+		B89677271DD975DE00D58645 /* GWWData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GWWData.xml; sourceTree = "<group>"; };
+		B89677291DD975E900D58645 /* TourData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TourData.xml; sourceTree = "<group>"; };
 		B8A08297130B97CD0021524F /* Artwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Artwork.h; sourceTree = "<group>"; };
 		B8A08298130B97CD0021524F /* Artwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Artwork.m; sourceTree = "<group>"; };
 		B8A30BB813274BFA00444B2E /* icon_search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_search.png; sourceTree = "<group>"; };
@@ -286,6 +289,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				B89677291DD975E900D58645 /* TourData.xml */,
+				B89677271DD975DE00D58645 /* GWWData.xml */,
 				B8709413131F4C5700AED2B6 /* about.htm */,
 				B8709417131F505500AED2B6 /* AboutView.xib */,
 				B8828C0313136C7000AE83EC /* ArtDetailView.xib */,
@@ -405,7 +410,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Last Mountain Software";
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
@@ -440,7 +445,6 @@
 			files = (
 				B847BE14198EC59900A299CE /* icon-small@2x.png in Resources */,
 				B847BE1A198EC9AD00A299CE /* walk@2x.png in Resources */,
-				B8AF2F7019382BAC0024309E /* MainWindow-iPad.xib in Resources */,
 				B874183C194028F5002C97E4 /* Default@2x~ipad.png in Resources */,
 				B8741839194028E7002C97E4 /* icon-152.png in Resources */,
 				B874183D194028F5002C97E4 /* Default~ipad.png in Resources */,
@@ -448,6 +452,7 @@
 				B8741836194028E7002C97E4 /* icon-76.png in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
 				B8741838194028E7002C97E4 /* icon-120.png in Resources */,
+				B896772A1DD975E900D58645 /* TourData.xml in Resources */,
 				B88B882312EFDCCB002ECD8F /* TourListView.xib in Resources */,
 				B8828C0513136C7000AE83EC /* ArtDetailView.xib in Resources */,
 				B89351911314D59C00FC62CE /* ArtMapView.xib in Resources */,
@@ -464,6 +469,7 @@
 				B88EE114132B28C00095F8CC /* icon-72.png in Resources */,
 				B88EE115132B28C00095F8CC /* icon-small.png in Resources */,
 				B88EE116132B28C00095F8CC /* icon.png in Resources */,
+				B89677281DD975DE00D58645 /* GWWData.xml in Resources */,
 				B88EE117132B28C00095F8CC /* icon@2x.png in Resources */,
 				B853579C1736F02700D2B201 /* Default.png in Resources */,
 				B8741837194028E7002C97E4 /* icon-80.png in Resources */,
@@ -535,8 +541,9 @@
 				INFOPLIST_FILE = "Lake_Oswego_Art-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.artscouncillo.LOArtTour;
 				PRODUCT_NAME = "Lake Oswego Art";
-				PROVISIONING_PROFILE = "2252095B-30B8-411D-A70C-03F70E576FBA";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -554,8 +561,9 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Lake_Oswego_Art-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.artscouncillo.LOArtTour;
 				PRODUCT_NAME = "Lake Oswego Art";
-				PROVISIONING_PROFILE = "F7A16F51-3847-4DA7-9102-2FF091D51CA6";
+				PROVISIONING_PROFILE = "";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -571,7 +579,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "02B6E04C-0D6E-412C-ACBB-21288D5FDFA1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "02B6E04C-0D6E-412C-ACBB-21288D5FDFA1";
@@ -592,9 +600,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "Lake_Oswego_Art-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.artscouncillo.LOArtTour;
 				PRODUCT_NAME = "Lake Oswego Art";
-				PROVISIONING_PROFILE = "3EB506BC-2331-49D8-B165-5044FD19E3AD";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3EB506BC-2331-49D8-B165-5044FD19E3AD";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -605,11 +614,12 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer: Brian Strull (V4H5W83LLB)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Brian Strull (V4H5W83LLB)";
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "E1C091E2-0B55-4CFE-A7AC-F7DDD0FDB726";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E1C091E2-0B55-4CFE-A7AC-F7DDD0FDB726";
@@ -626,7 +636,7 @@
 				GCC_THUMB_SUPPORT = NO;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "E1C091E2-0B55-4CFE-A7AC-F7DDD0FDB726";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E1C091E2-0B55-4CFE-A7AC-F7DDD0FDB726";

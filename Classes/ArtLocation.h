@@ -22,9 +22,8 @@
 @property (nonatomic, strong) 	CLLocationManager *locManager;
 @property (nonatomic, strong) CLLocation *myLocation;
 
--(void) startLooking;
+-(void) prepareToLook;
 -(void) resumeLooking;
--(void) restartLooking;
 -(void) stopLooking;
 -(Artwork*) findClosest:(ArtList*) works;
 

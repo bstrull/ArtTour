@@ -26,9 +26,9 @@
 		art = [[Artwork alloc] init];
 		
 		// load works from xml
-		static NSString* path =
-         @"http://127.0.0.1/tour/data/GWWData.xml";
-        //@"http://www.artscouncillo.org/tour/data/GWWData.xml";
+      NSString* path = [[NSBundle mainBundle] pathForResource:@"GWWData" ofType:@"xml"];
+        // @"http://192.168.0.16/lofa.org/tour/data/GWWData.xml";
+        // @"http://www.artscouncillo.org/tour/data/GWWData.xml";
 		[self parseXMLFileAtURL:path];
 	}
 	return self;
@@ -49,12 +49,15 @@
 - (void)parseXMLFileAtURL:(NSString *)URL
 { 
 	//you must then convert the path to a proper NSURL or it won't work 
-	NSURL *xmlURL = [NSURL URLWithString:URL]; 
+	// NSURL *xmlURL = [NSURL URLWithString:URL];
 	// here, for some reason you have to use NSClassFromString when trying to alloc NSXMLParser, 
 	// otherwise you will get an object not found error 
 	// this may be necessary only for the toolchain 
-	rssParser = [[NSXMLParser alloc] initWithContentsOfURL:xmlURL]; 
-	// Set self as the delegate of the parser so that it will receive the parser delegate methods callbacks. 
+	//rssParser = [[NSXMLParser alloc] initWithContentsOfURL:xmlURL];
+
+    rssParser = [[NSXMLParser alloc] initWithData:[NSData dataWithContentsOfFile:URL]];
+
+    // Set self as the delegate of the parser so that it will receive the parser delegate methods callbacks.
 	[rssParser setDelegate:self]; 
 	// Depending on the XML document you're parsing, you may want to enable these features of NSXMLParser. 
 	[rssParser setShouldProcessNamespaces:NO]; 

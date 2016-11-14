@@ -38,7 +38,7 @@
         NSData *theData = [[NSData alloc]  initWithContentsOfFile:thePath];
         [self.info loadData:theData MIMEType:@"text/html"
 					textEncodingName:@"utf-8" 
-					baseURL:nil];
+					baseURL:[[NSURL alloc] init]];
     }
 }
 
