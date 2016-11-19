@@ -82,6 +82,8 @@
           [self cleanupUrl:art.imageLink];
         }
 
+      [self finishView];
+
       SDWebImageManager *manager = [SDWebImageManager sharedManager];
       [manager downloadWithURL:[NSURL URLWithString:art.imageLink]
                        options:0
@@ -96,7 +98,7 @@
            // do something with image
            art.artImage = image;
          }
-         [self finishView];
+         [self finishImage];
 
        }];
 
@@ -106,20 +108,24 @@
 	}
     else
     {
+      [self finishImage];
       [self finishView];
     }
 }
 
+-(void) finishImage
+{
+  [self.img setImage:art.artImage];
+
+  UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
+  [doubleTap setNumberOfTapsRequired:2];
+  [self.img addGestureRecognizer:doubleTap];
+
+  zoomed = NO;
+}
+
 -(void) finishView
 {
-	[self.img setImage:art.artImage];
-	
-	UITapGestureRecognizer *doubleTap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleDoubleTap:)];
-    [doubleTap setNumberOfTapsRequired:2];
-	[self.img addGestureRecognizer:doubleTap];
-	
-	zoomed = NO;
-	
 	[self fillHeader];
 	[self fillInfo];
 	

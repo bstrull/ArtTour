@@ -57,9 +57,12 @@
 {
 	if ([latlng length] > 0)
 	{
-		NSArray *chunks = [latlng componentsSeparatedByString: @","];
-		lng = [[chunks objectAtIndex:0] floatValue];
-		lat = [[chunks objectAtIndex:1] floatValue];
+      NSArray *chunks = [latlng componentsSeparatedByString: @","];
+      if ([chunks count] != 2) {
+        chunks = [latlng componentsSeparatedByString: @"/"];
+      }
+      lng = [[chunks objectAtIndex:0] floatValue];
+      lat = [[chunks objectAtIndex:1] floatValue];
 
       // check that the values are reasonable
       if (lat < 0.0 && lng > 0.0)
