@@ -16,7 +16,7 @@
 @property (nonatomic,strong) IBOutlet MKMapView *artmap;
 @property (nonatomic,strong) NSMutableArray *annotations;
 @property (nonatomic, strong) NSArray *artworkToDisplay;
-@property (nonatomic) BOOL viewLoaded;
+@property (nonatomic) BOOL setupCompleted;
 
 -(void) showArt:(Artwork*) art;
 -(void) showArtList:(NSArray*) arts;

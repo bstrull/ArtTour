@@ -23,10 +23,9 @@
     if (self) {
         // Custom initialization.
     }
-    self.viewLoaded = NO;
+    self.setupCompleted = NO;
     return self;
 }
-
 
 
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
@@ -47,15 +46,14 @@
 {
   [super viewWillAppear:animated];
 
-  if (!self.viewLoaded) {
-    self.viewLoaded = YES;
+  if (!self.setupCompleted) {
+    self.setupCompleted = YES;
     if ([self.artworkToDisplay count] == 1)
         [self doShowArt:[self.artworkToDisplay objectAtIndex:0]];
     else if ([self.artworkToDisplay count] > 1)
       [self doShowArtList:self.artworkToDisplay];
   }
 }
-
 
  - (void)viewDidDisappear:(BOOL)animated {
 
